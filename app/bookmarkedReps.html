@@ -1,0 +1,15 @@
+<h1> Bookmarked repositories </h1>
+<!-- although I have the entire data of the bookmarked repository, I choose to display only 3 properties  -->
+<div class="row">
+  <div class="col-sm-6 col-lg-3 my-2" ng-repeat="rep in bookmarkedReps">
+    <div class="card h-100">
+      <img ng-src="{{rep.owner.avatar_url}}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+      <h4>{{rep.name}}</h4>
+      <div class="card-body">
+        <h4 class="card-title">{{rep.description}}</h4>
+          </div>
+      <div class="card-footer">
+      </div>
+    </div>
+  </div>
+</div>

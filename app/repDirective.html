@@ -1,0 +1,13 @@
+<div class="card  h-100">
+    <img ng-src="{{rep.repImg}}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350"
+        height="350">
+    <h4>Repository id: {{rep.repId}}</h4>
+    <div class="card-body">
+        <h4 class="card-title">{{rep.repName}}</h4>
+    </div>
+    <div class="card-footer">
+        <button id="bookmarkBtn" type="button" class="btn btn-default" ng-click="saveBookmarkedRep(rep.repId)">
+            <i class="fas fa-bookmark"></i>
+        </button>
+    </div>
+</div>

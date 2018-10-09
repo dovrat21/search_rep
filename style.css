@@ -1,0 +1,59 @@
+
+.fas{
+    font-size: 40px;
+    font-weight: 500;
+    color: #007bff;;
+}
+.fas:focus{
+    
+    font-weight: 900;
+    background-color: white;
+}
+
+.form-control{
+    display:inline !important;
+   width:60%;
+}
+#searchBtn{
+    margin-top: 6px;
+}
+#bookmarkedGalleryBtn{
+    width: 370px;
+    height: 50px;
+    padding: 9px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: green;
+
+}
+#bookmarkBtn{
+    float:right;
+    border: 0;
+    background-color: transparent;
+
+}
+
+#bookmarkBtn:focus{
+    border: 0;
+    background-color: yellow;
+}
+
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
+.repImg{
+   width:100%;
+   height:300px;
+  
+}
+ body {
+     font-size:25px;
+      line-height: 1.8;
+      text-align:center;
+      font-family: 'Merienda', cursive;
+     
+  }
+   .margin {margin-bottom: 45px; padding: 12px;}
+ 
+ 

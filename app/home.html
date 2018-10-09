@@ -1,0 +1,14 @@
+<div class="container">
+ 
+  <form class="search-box my-2">
+    <button id="searchBtn" type="button" class="btn btn-info btn-lg" ng-click="searchRepository()">Search</button>
+    <input type="text" class="form-control" placeholder="Enter repository" ng-model="searchText" ng-keyup="$event.keyCode == 13 ?searchRepository() : null" />
+  </form>
+  <a id="bookmarkedGalleryBtn" href="#!/repositories" class="btn btn-primary btn-lg">View bookmarked repositories</a>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3 my-2" ng-repeat="rep in repositories">
+      <my-rep></my-rep>
+    </div>
+  </div>
+
+</div>
