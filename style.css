@@ -12,7 +12,7 @@
 
 .form-control{
     display:inline !important;
-   width:60%;
+   width:300px;
 }
 #searchBtn{
     margin-top: 6px;
