@@ -11,8 +11,9 @@
 }
 
 .form-control{
+    width: 300px !important;
     display:inline !important;
-   width:300px !important;
+  
 }
 #searchBtn{
     margin-top: 6px;
